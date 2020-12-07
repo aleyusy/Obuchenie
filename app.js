@@ -37,19 +37,19 @@
 // var pickRandomWord = function (words) {
 //   return words[Math.floor(Math.random() * words.length)];
 // };
-var randomWords = [
-  'бесформенный',
-  'Пространство сознания',
-  'Истина',
-  'Нерождённый',
-  'Бессмертный',
-  'Сострадательный',
-  'Любящий',
-];
+// var randomWords = [
+//   'бесформенный',
+//   'Пространство сознания',
+//   'Истина',
+//   'Нерождённый',
+//   'Бессмертный',
+//   'Сострадательный',
+//   'Любящий',
+// ];
 
-let rDom = document.getElementById('rr');
-rDom.innerHTML =
-  'ТЫ ЕСТЬ - ' + randomWords[Math.floor(Math.random() * randomWords.length)];
+// let rDom = document.getElementById('rr');
+// rDom.innerHTML =
+//   'ТЫ ЕСТЬ - ' + randomWords[Math.floor(Math.random() * randomWords.length)];
 
 // const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", "");
 // const personalMovieDB = {
@@ -106,3 +106,23 @@ rDom.innerHTML =
 //   personalMovieDB.movies[a] = b;
 // }
 // console.log(personalMovieDB);
+// document.querySelector('#col').innerText = 'Hello World';
+// let name = {
+//   firstName: 'Bill',
+//   lastName: 'Geits',
+//   getName() {
+//     return `${this.firstName} ${this.lastName}`;
+//   },
+// };
+// console.log(name.getName());
+// class Name {
+//   constructor(firstName, lastName) {
+//     this.firstName = firstName;
+//     this.lastName = lastName;
+//   }
+//   sayName() {
+//     console.log(`Your Name is: ${this.firstName} ${this.lastName}`);
+//   }
+// }
+// let name1 = new Name('Yury', 'Alexandrov');
+// name1.sayName();
